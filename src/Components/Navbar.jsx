@@ -3,7 +3,7 @@ import { ChevronDown, ChevronRight, X } from 'lucide-react';
 import logo from "../assets/logo.png";
 import indFlag from "../assets/ind flag/indFlag.webp";
 
-const Navbar = () => {
+function Navbar(){
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [hasScrolled, setHasScrolled] = useState(false);
     const [activeDropdown, setActiveDropdown] = useState(null);

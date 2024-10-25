@@ -4,7 +4,7 @@ import Rating2 from "../assets/rating/rating2.png"
 import Rating3 from "../assets/rating/rating3.png"
 import Rating4 from "../assets/rating/rating4.png"
 
-export const Recommend = () => {
+function Recommend() {
   return (
     <div className="max-w-[1150px] w-11/12 flex md:flex-row flex-col md:gap-[10px] gap-[30px] mx-auto justify-around items-center py-[80px]">
       <img src={Rating1} alt="TrustPilot" className="md:w-1/5 w-3/5 my-[20px]" />
@@ -14,3 +14,7 @@ export const Recommend = () => {
     </div>
   );
 };
+
+
+
+export default Recommend

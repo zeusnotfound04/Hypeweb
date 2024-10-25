@@ -4,7 +4,7 @@ import { IoMdCloudDone  } from "react-icons/io";
 import { FaRegQuestionCircle } from 'react-icons/fa';
 import HeroIMG from "../assets/Hero.png"
 
-export const Hero = () => {
+function Hero() {
   return (
     <div className="max-w-[1400px] w-11/12 flex flex-col md:flex-row mx-auto justify-between items-center gap-20 my-12 md:pt-5 relative z-10">
     
@@ -66,3 +66,6 @@ export const Hero = () => {
     </div>
   );
 };
+
+
+export default Hero
