@@ -249,7 +249,7 @@ function Pricing() {
     return (
       <div className='w-full'>
         <div className="max-w-[1150px] w-11/12 flex flex-col gap-[18px] mx-auto justify-around items-center py-[30px]">
-          <h1 className="font-semibold text-4xl text-center text-[#2F1C6A]">Choose Your Web Hosting Plan</h1>
+          <h1 className="font-semibold text-4xl text-center text-[#423675]">Choose Your Web Hosting Plan</h1>
           <div className="flex lg:flex-row flex-col gap-[25px] justify-between mt-16">
             {pricingCards.map((card, index) => (
               <div key={index} className="w-full max-w-[390px] hover:scale-[1.02] hover:duration-300 border border-[#e64a27] rounded-lg shadow-lg relative">
